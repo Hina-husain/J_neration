@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@300&family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+font-family:'Noto Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+}
+nav .nav-link{
+    color: rgb(6, 6, 6);
+    padding-top: 20px;
+    font-size: 21px;
+
+}
+
+nav button{
+    color: white;
+    background-color:black;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+    box-shadow: 0px 5px 3px rgb(176, 176, 177);
+}
+nav button:hover{
+    color: black;
+    background-color: white;
+}
+.digital h1{
+    font-weight: 900;
+    font-size: 60px;
+}
+.digital button{
+    color: white;
+    background-color:rgb(20, 192, 208);
+    border-radius: 30px;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    box-shadow: 0px 5px 3px rgb(199, 211, 212);
+}
+.digital button:hover{
+color: rgb(20, 192, 208);
+background-color: white;
+}
+.digital h2{
+    font-size: 35px;
+    font-weight: 900;
+}
+.digital h4{
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 35px;
+}
+.digital span{
+    color: rgb(233, 34, 157);
+}
+.digital p{
+    line-height: 25px;
+}
+.custom_card h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+.custom_card p{
+    font-weight: 900;
+    font-size: 20px;
+}
+.custom_card .card{
+    border-radius: 10%;
+}
+.what_do{
+    position: relative;
+}
+.what_do h1{
+    font-size: 55px;
+    font-weight: 900;
+}
+.what_do p{
+    font-size: 20px;
+}
+.what_do h4{
+    position: absolute;
+    top: 80%;
+    color: white;
+    font-weight: 900;
+}
+.explore{
+    background-color: #a0d3d1;
+    position: relative;
+}
+.explore svg{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.explore button{
+    background-color: #089c97;
+    margin: 50px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    font-weight: 900;
+}
+.explore button:hover{
+    color: #089c97;
+    background-color: white;
+}
+.explore h1{
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+.explore p{
+    font-size: 20px;
+}
+.jneration h1{
+    font-size:20px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+.jneration span{
+    color: #089c97;
+}
+.jneration{
+    background-color: #F3F4F5;
+}
+.jneration h3{
+    font-size: 20px;
+    font-weight: 900;
+}
+.jneration .last_span{
+    color: white;
+}
+ /* about page */
+.about h6{
+    color:skyblue;
+}
+.about h1{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 73px;
+}
+.company h6{
+    color: skyblue;
+}
+.company h1{
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 41px;
+}
+.company .last_img{
+    height: 85%;
+    margin-top: 105px;
+    border-radius: 10px;
+}
+.company .and_img{
+    height: 118%;
+    border-radius: 10px;
+}
+.chapter h6{
+    color: skyblue;
+}
+.chapter h3{
+    font-weight: 900;
+}
+.chapter h4{
+    font-weight: 900;
+}
+.chapter .main_div1{
+    border-left: 5px solid black; 
+    padding-left: 15px;
+}
+.chapter .main_div2{
+    border-left: 5px solid rgb(224, 15, 15); 
+    padding-left: 15px;
+}
+.chapter .main_div3{
+    border-left: 5px solid rgb(240, 225, 88); 
+    padding-left: 15px;
+}
+.chapter .main_div4{
+    border-left: 5px solid pink; 
+}
+.chapter .main_div5{
+    border-left: 5px solid rgb(60, 236, 121); 
+    padding-left: 15px;
+}
+.chapter .main_div6{
+    border-left: 5px solid rgb(116, 72, 229); 
+    padding-left: 15px;
+}
+.chapter .main_div6{
+    border-left: 5px solid rgb(52, 19, 220); 
+    padding-left: 15px;
+}
+.chapter .main_div7{
+    border-left: 5px solid rgb(35, 201, 192); 
+    padding-left: 15px;
+}
+.chapter .main_div8{
+    border-left: 5px solid rgb(224, 117, 35); 
+    padding-left: 15px;
+}
+.chapter .main_div9{
+    border-left: 5px solid rgb(224, 214, 72); 
+    padding-left: 15px;
+}
+.chapter .main_div10{
+    border-left: 5px solid rgb(135, 35, 165); 
+    padding-left: 15px;
+}
+.chapter .main_div11{
+    border-left: 5px solid black; 
+    padding-left: 15px;
+}
+.chapter .main_div12{
+    border-left: 5px solid skyblue; 
+    padding-left: 15px;
+}
+.chapter .main_div13{
+    border-left: 5px solid rgb(27, 214, 24); 
+    padding-left: 15px;
+}
+.service h6{
+    color: skyblue;
+}
+.service h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.last_service button{
+    background-color: #00B1AE;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 25px;
+}
+.last_service button:hover{
+    background-color: white;
+    color: #00B1AE;
+}
+
+.last_service .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.last_service .card1{
+    background-color:rgba(253,203,8,0.2);
+    border-radius: 10px;
+    margin: 8px;
+}
+.last_service .card2{
+    background-color:rgba(247,63,123,0.2);
+    border-radius: 10px;
+    margin: 8px;
+}
+.last_service .card3{
+    background-color: #f0f6d8;;
+    border-radius: 10px;
+    margin: 8px;
+}
+.last_service .card4{
+    background-color: #fbd5db;;
+    border-radius: 10px;
+    margin: 8px;
+}
+.last_service .card5{
+    background-color: #fff5ce;;
+    border-radius: 10px;
+    margin: 8px;
+}
+.last_service .card6{
+    background-color: #fdd9e5;;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.solve_discover .card{
+    clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
+    width: 100%;
+    background: #f8cad1;  
+}
+.solve_discover h6{
+    color: skyblue;
+}
+.solve_discover h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.solve_discover .card-title{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.contact_us h6{
+    color: skyblue;
+}
+.contact_us h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.contact_us .custom_input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15%;
+}
+.contact_us .custom_output{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(241, 240, 240);
+    font-size: 15px;
+}
+.contact_us .custom{
+    padding-top: 20px;
+    padding-bottom: 120px;
+    background-color: rgb(241, 240, 240);
+    font-size: 15px;
+}
+.contact_us .close{
+    padding: 20px 200px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #089c97;
+    color: white;
+    border: none;
+} 
+.contact_us .close:hover{
+    color: #089c97;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 5px 3px rgb(81, 200, 200);
+}
+
+
+@media (max-width:991px){
+    .last_service .col-lg-4{
+        margin-bottom: 15px;
+    }
+}
